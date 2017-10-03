@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -14,14 +15,32 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nerd3_" translatesAutoresizingMaskIntoConstraints="NO" id="Uxg-IX-qb9">
+                                <rect key="frame" x="20" y="137" width="280" height="294"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Uxg-IX-qb9" secondAttribute="height" multiplier="20:21" id="Jci-HN-Nf5"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Uxg-IX-qb9" secondAttribute="trailing" constant="20" id="B9O-t6-87Q"/>
+                            <constraint firstItem="Uxg-IX-qb9" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="20" id="Y8b-9M-Ome"/>
+                            <constraint firstItem="Uxg-IX-qb9" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="117" id="am1-Tx-MKP"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Uxg-IX-qb9" secondAttribute="bottom" constant="137" id="wD1-CQ-4Ai"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="nerd3_" width="466" height="466"/>
+    </resources>
 </document>

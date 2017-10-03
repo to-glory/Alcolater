@@ -8,32 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		8B070D621CC18FB000B39469 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B070D611CC18FB000B39469 /* ResultViewController.swift */; };
-		8B3931781CC2277B00518E58 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3931761CC2277B00518E58 /* TableViewCell.swift */; };
-		8B4D49561CC69C4700A8F18A /* Alcohol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4D49541CC69C4700A8F18A /* Alcohol.swift */; };
+		8B46145A1CD2781F003F8353 /* Alcohol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4614581CD2781F003F8353 /* Alcohol.swift */; };
+		8B46145E1CD28321003F8353 /* SingleViewCoreData.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 8B46145B1CD28321003F8353 /* SingleViewCoreData.sqlite */; };
+		8B46145F1CD28321003F8353 /* SingleViewCoreData.sqlite-shm in Resources */ = {isa = PBXBuildFile; fileRef = 8B46145C1CD28321003F8353 /* SingleViewCoreData.sqlite-shm */; };
+		8B4614601CD28321003F8353 /* SingleViewCoreData.sqlite-wal in Resources */ = {isa = PBXBuildFile; fileRef = 8B46145D1CD28321003F8353 /* SingleViewCoreData.sqlite-wal */; };
 		8B91A6A71CC1307900F61B52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B91A6A61CC1307900F61B52 /* AppDelegate.swift */; };
 		8B91A6A91CC1307900F61B52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B91A6A81CC1307900F61B52 /* ViewController.swift */; };
 		8B91A6AC1CC1307900F61B52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B91A6AA1CC1307900F61B52 /* Main.storyboard */; };
 		8B91A6AF1CC1307900F61B52 /* Alcolater.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B91A6AD1CC1307900F61B52 /* Alcolater.xcdatamodeld */; };
-		8B91A6B11CC1307900F61B52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B91A6B01CC1307900F61B52 /* Assets.xcassets */; };
 		8B91A6B41CC1307900F61B52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B91A6B21CC1307900F61B52 /* LaunchScreen.storyboard */; };
 		8B91A6BC1CC132DA00F61B52 /* AlcoholViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B91A6BB1CC132DA00F61B52 /* AlcoholViewController.swift */; };
 		8BAB57D51CC13DC000167F1B /* AddNewAlcoholViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAB57D41CC13DC000167F1B /* AddNewAlcoholViewController.swift */; };
+		8BD995D41CEA37CD00DD55B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BD995D31CEA37CD00DD55B4 /* Assets.xcassets */; };
+		8BD995D61CEA38DD00DD55B4 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD995D51CEA38DD00DD55B4 /* InfoViewController.swift */; };
+		8BF102861CED0A4E008B8BBB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BF102881CED0A4E008B8BBB /* Localizable.strings */; };
+		8BF1028B1CED0A4E008B8BBB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BF1028D1CED0A4E008B8BBB /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8B070D611CC18FB000B39469 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
-		8B3931761CC2277B00518E58 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		8B4D49541CC69C4700A8F18A /* Alcohol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alcohol.swift; sourceTree = "<group>"; };
-		8B91A6A31CC1307900F61B52 /* Alcolater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alcolater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4614581CD2781F003F8353 /* Alcohol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alcohol.swift; sourceTree = "<group>"; };
+		8B46145B1CD28321003F8353 /* SingleViewCoreData.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = SingleViewCoreData.sqlite; sourceTree = "<group>"; };
+		8B46145C1CD28321003F8353 /* SingleViewCoreData.sqlite-shm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SingleViewCoreData.sqlite-shm"; sourceTree = "<group>"; };
+		8B46145D1CD28321003F8353 /* SingleViewCoreData.sqlite-wal */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SingleViewCoreData.sqlite-wal"; sourceTree = "<group>"; };
+		8B91A6A31CC1307900F61B52 /* Alcolator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alcolator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B91A6A61CC1307900F61B52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B91A6A81CC1307900F61B52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8B91A6AB1CC1307900F61B52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B91A6AE1CC1307900F61B52 /* Alcolater.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Alcolater.xcdatamodel; sourceTree = "<group>"; };
-		8B91A6B01CC1307900F61B52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B91A6B31CC1307900F61B52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B91A6B51CC1307900F61B52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B91A6BB1CC132DA00F61B52 /* AlcoholViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlcoholViewController.swift; sourceTree = "<group>"; };
 		8BAB57D41CC13DC000167F1B /* AddNewAlcoholViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewAlcoholViewController.swift; sourceTree = "<group>"; };
+		8BB32CA31CE3E3BD00EF1F5B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		8BB32CA41CE3E3BD00EF1F5B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		8BD995D31CEA37CD00DD55B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BD995D51CEA38DD00DD55B4 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		8BF102871CED0A4E008B8BBB /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8BF1028C1CED0A4E008B8BBB /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +70,7 @@
 		8B91A6A41CC1307900F61B52 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8B91A6A31CC1307900F61B52 /* Alcolater.app */,
+				8B91A6A31CC1307900F61B52 /* Alcolator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,18 +78,23 @@
 		8B91A6A51CC1307900F61B52 /* Alcolater */ = {
 			isa = PBXGroup;
 			children = (
+				8BF1028D1CED0A4E008B8BBB /* InfoPlist.strings */,
+				8BF102881CED0A4E008B8BBB /* Localizable.strings */,
 				8B91A6B21CC1307900F61B52 /* LaunchScreen.storyboard */,
 				8B91A6AA1CC1307900F61B52 /* Main.storyboard */,
-				8B3931761CC2277B00518E58 /* TableViewCell.swift */,
 				8B070D611CC18FB000B39469 /* ResultViewController.swift */,
 				8B91A6A61CC1307900F61B52 /* AppDelegate.swift */,
 				8B91A6A81CC1307900F61B52 /* ViewController.swift */,
 				8B91A6BB1CC132DA00F61B52 /* AlcoholViewController.swift */,
 				8BAB57D41CC13DC000167F1B /* AddNewAlcoholViewController.swift */,
-				8B4D49541CC69C4700A8F18A /* Alcohol.swift */,
+				8BD995D51CEA38DD00DD55B4 /* InfoViewController.swift */,
+				8B4614581CD2781F003F8353 /* Alcohol.swift */,
 				8B91A6B51CC1307900F61B52 /* Info.plist */,
 				8B91A6AD1CC1307900F61B52 /* Alcolater.xcdatamodeld */,
-				8B91A6B01CC1307900F61B52 /* Assets.xcassets */,
+				8B46145B1CD28321003F8353 /* SingleViewCoreData.sqlite */,
+				8B46145C1CD28321003F8353 /* SingleViewCoreData.sqlite-shm */,
+				8B46145D1CD28321003F8353 /* SingleViewCoreData.sqlite-wal */,
+				8BD995D31CEA37CD00DD55B4 /* Assets.xcassets */,
 			);
 			path = Alcolater;
 			sourceTree = "<group>";
@@ -85,9 +102,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8B91A6A21CC1307900F61B52 /* Alcolater */ = {
+		8B91A6A21CC1307900F61B52 /* Alcolator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B91A6B81CC1307900F61B52 /* Build configuration list for PBXNativeTarget "Alcolater" */;
+			buildConfigurationList = 8B91A6B81CC1307900F61B52 /* Build configuration list for PBXNativeTarget "Alcolator" */;
 			buildPhases = (
 				8B91A69F1CC1307900F61B52 /* Sources */,
 				8B91A6A01CC1307900F61B52 /* Frameworks */,
@@ -97,9 +114,9 @@
 			);
 			dependencies = (
 			);
-			name = Alcolater;
+			name = Alcolator;
 			productName = Alcolater;
-			productReference = 8B91A6A31CC1307900F61B52 /* Alcolater.app */;
+			productReference = 8B91A6A31CC1307900F61B52 /* Alcolator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -118,7 +135,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8B91A69E1CC1307900F61B52 /* Build configuration list for PBXProject "Alcolater" */;
+			buildConfigurationList = 8B91A69E1CC1307900F61B52 /* Build configuration list for PBXProject "Alcolator" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -131,7 +148,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8B91A6A21CC1307900F61B52 /* Alcolater */,
+				8B91A6A21CC1307900F61B52 /* Alcolator */,
 			);
 		};
 /* End PBXProject section */
@@ -142,7 +159,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B91A6B41CC1307900F61B52 /* LaunchScreen.storyboard in Resources */,
-				8B91A6B11CC1307900F61B52 /* Assets.xcassets in Resources */,
+				8BF1028B1CED0A4E008B8BBB /* InfoPlist.strings in Resources */,
+				8B46145E1CD28321003F8353 /* SingleViewCoreData.sqlite in Resources */,
+				8B4614601CD28321003F8353 /* SingleViewCoreData.sqlite-wal in Resources */,
+				8BF102861CED0A4E008B8BBB /* Localizable.strings in Resources */,
+				8B46145F1CD28321003F8353 /* SingleViewCoreData.sqlite-shm in Resources */,
+				8BD995D41CEA37CD00DD55B4 /* Assets.xcassets in Resources */,
 				8B91A6AC1CC1307900F61B52 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,13 +176,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B3931781CC2277B00518E58 /* TableViewCell.swift in Sources */,
 				8B91A6AF1CC1307900F61B52 /* Alcolater.xcdatamodeld in Sources */,
-				8B4D49561CC69C4700A8F18A /* Alcohol.swift in Sources */,
+				8B46145A1CD2781F003F8353 /* Alcohol.swift in Sources */,
 				8B070D621CC18FB000B39469 /* ResultViewController.swift in Sources */,
 				8BAB57D51CC13DC000167F1B /* AddNewAlcoholViewController.swift in Sources */,
 				8B91A6A91CC1307900F61B52 /* ViewController.swift in Sources */,
 				8B91A6A71CC1307900F61B52 /* AppDelegate.swift in Sources */,
+				8BD995D61CEA38DD00DD55B4 /* InfoViewController.swift in Sources */,
 				8B91A6BC1CC132DA00F61B52 /* AlcoholViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -172,6 +194,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				8B91A6AB1CC1307900F61B52 /* Base */,
+				8BB32CA41CE3E3BD00EF1F5B /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -180,8 +203,25 @@
 			isa = PBXVariantGroup;
 			children = (
 				8B91A6B31CC1307900F61B52 /* Base */,
+				8BB32CA31CE3E3BD00EF1F5B /* ru */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8BF102881CED0A4E008B8BBB /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BF102871CED0A4E008B8BBB /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		8BF1028D1CED0A4E008B8BBB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BF1028C1CED0A4E008B8BBB /* ru */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -275,9 +315,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Alcolater/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.to-glory.Alcolater";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Alcolator;
 			};
 			name = Debug;
 		};
@@ -286,16 +327,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Alcolater/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.to-glory.Alcolater";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Alcolator;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8B91A69E1CC1307900F61B52 /* Build configuration list for PBXProject "Alcolater" */ = {
+		8B91A69E1CC1307900F61B52 /* Build configuration list for PBXProject "Alcolator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8B91A6B61CC1307900F61B52 /* Debug */,
@@ -304,7 +346,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B91A6B81CC1307900F61B52 /* Build configuration list for PBXNativeTarget "Alcolater" */ = {
+		8B91A6B81CC1307900F61B52 /* Build configuration list for PBXNativeTarget "Alcolator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8B91A6B91CC1307900F61B52 /* Debug */,

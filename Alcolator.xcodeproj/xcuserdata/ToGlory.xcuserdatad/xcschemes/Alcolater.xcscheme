@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8B91A6A21CC1307900F61B52"
-               BuildableName = "Alcolater.app"
-               BlueprintName = "Alcolater"
-               ReferencedContainer = "container:Alcolater.xcodeproj">
+               BuildableName = "Alcolator.app"
+               BlueprintName = "Alcolator"
+               ReferencedContainer = "container:Alcolator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8B91A6A21CC1307900F61B52"
-            BuildableName = "Alcolater.app"
-            BlueprintName = "Alcolater"
-            ReferencedContainer = "container:Alcolater.xcodeproj">
+            BuildableName = "Alcolator.app"
+            BlueprintName = "Alcolator"
+            ReferencedContainer = "container:Alcolator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -50,15 +50,16 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
-      allowLocationSimulation = "YES">
+      allowLocationSimulation = "YES"
+      language = "ru">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8B91A6A21CC1307900F61B52"
-            BuildableName = "Alcolater.app"
-            BlueprintName = "Alcolater"
-            ReferencedContainer = "container:Alcolater.xcodeproj">
+            BuildableName = "Alcolator.app"
+            BlueprintName = "Alcolator"
+            ReferencedContainer = "container:Alcolator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8B91A6A21CC1307900F61B52"
-            BuildableName = "Alcolater.app"
-            BlueprintName = "Alcolater"
-            ReferencedContainer = "container:Alcolater.xcodeproj">
+            BuildableName = "Alcolator.app"
+            BlueprintName = "Alcolator"
+            ReferencedContainer = "container:Alcolator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

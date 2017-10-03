@@ -12,20 +12,29 @@ import CoreData
 class AlcoholViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, NSFetchedResultsControllerDelegate {
     @IBOutlet var tableView: UITableView!
     @IBOutlet var navigationBar: UINavigationItem!
-    @IBOutlet var sortBtn: UIButton!
+    @IBOutlet var backTitle: UIButton!
+    @IBOutlet var calculateTitle: UIButton!
+    @IBOutlet var navBar: UINavigationItem!
+    
 
     var fetchResultController: NSFetchedResultsController!
     var alcoholList = [String: Double]()
     var alcoholUserList = [String]()
-    var alcoholUserFortress = [Int]()
+    var alcoholUserFortress = [Double]()
     var finalValue = [Double]()
     var isCheck = [Bool]()
     var volume = 0.0
     var sortDescriptor = NSSortDescriptor()
     var sort = false
+    let locale = NSLocale.preferredLanguages().first!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navBar.title = NSLocalizedString("Choose the drinks", comment: "Выберите напитки")
+        backTitle.setTitle(NSLocalizedString("Back", comment: "Назад"), forState: .Normal)
+        calculateTitle.setTitle(NSLocalizedString("Calculate", comment: "Рассчитать"), forState: .Normal)
+        
         navigationBar.setHidesBackButton(true, animated: true)
         let fetchRequest = NSFetchRequest(entityName: "Alcohol")
         sortDescriptor = NSSortDescriptor(key: "fortress", ascending: true)
@@ -60,7 +69,11 @@ class AlcoholViewController: UIViewController, UITableViewDataSource, UITableVie
         let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as UITableViewCell
         let alcohol = fetchResultController.objectAtIndexPath(indexPath) as! Alcohol
         isCheck.append(false)
-        cell.textLabel?.text = alcohol.title
+        if locale.hasPrefix("ru") {
+        cell.textLabel?.text = alcohol.titleRu
+        } else {
+            cell.textLabel?.text = alcohol.titleEn
+        }
         cell.detailTextLabel?.text = "\(Int(alcohol.fortress!))" + "%"
         if isCheck[indexPath.row] {
             cell.accessoryType = .Checkmark
@@ -75,12 +88,20 @@ class AlcoholViewController: UIViewController, UITableViewDataSource, UITableVie
         let selectedCell: UITableViewCell = tableView.cellForRowAtIndexPath(indexPath)!
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
         if isCheck[indexPath.row] == false{
-        alcoholList.updateValue(Double(alcohol.fortress!), forKey: alcohol.title!)
+            if locale.hasPrefix("ru") {
+                alcoholList.updateValue(Double(alcohol.fortress!), forKey: alcohol.titleRu!)
+            } else {
+                alcoholList.updateValue(Double(alcohol.fortress!), forKey: alcohol.titleEn!)
+            }
             selectedCell.accessoryType = .Checkmark
             isCheck[indexPath.row] = true
         print(alcoholList)
         } else if isCheck[indexPath.row] == true {
-            alcoholList.removeValueForKey(alcohol.title!)
+            if locale.hasPrefix("ru") {
+            alcoholList.removeValueForKey(alcohol.titleRu!)
+            } else {
+                alcoholList.removeValueForKey(alcohol.titleEn!)
+            }
             selectedCell.accessoryType = .None
             isCheck[indexPath.row] = false
             print(alcoholList)
@@ -121,7 +142,7 @@ class AlcoholViewController: UIViewController, UITableViewDataSource, UITableVie
         finalValue.removeAll()
             for (name, fortress) in alcoholList {
                 alcoholUserList.append(name)
-                alcoholUserFortress.append(Int(fortress))
+                alcoholUserFortress.append(fortress)
             }
         print(alcoholUserFortress)
         print(alcoholUserList)
@@ -138,47 +159,12 @@ class AlcoholViewController: UIViewController, UITableViewDataSource, UITableVie
     }
     
     
-    @IBAction func sortBtn(sender: AnyObject) {
-        if sort == false {
-            let fetchRequest = NSFetchRequest(entityName: "Alcohol")
-            sortDescriptor = NSSortDescriptor(key: "title", ascending: true)
-            fetchRequest.sortDescriptors = [sortDescriptor]
-            if let managedObjectContext = (UIApplication.sharedApplication().delegate as? AppDelegate)?.managedObjectContext {
-                fetchResultController = NSFetchedResultsController(fetchRequest: fetchRequest, managedObjectContext: managedObjectContext, sectionNameKeyPath: nil, cacheName: nil)
-                fetchResultController.delegate = self
-                do {
-                    try fetchResultController.performFetch()
-                } catch {
-                    print("error")
-                }
-            }
-            sortBtn.setTitle("Sort by title", forState: .Normal)
-            sort = true
-        } else {
-            let fetchRequest = NSFetchRequest(entityName: "Alcohol")
-            sortDescriptor = NSSortDescriptor(key: "fortress", ascending: true)
-            fetchRequest.sortDescriptors = [sortDescriptor]
-            if let managedObjectContext = (UIApplication.sharedApplication().delegate as? AppDelegate)?.managedObjectContext {
-                fetchResultController = NSFetchedResultsController(fetchRequest: fetchRequest, managedObjectContext: managedObjectContext, sectionNameKeyPath: nil, cacheName: nil)
-                fetchResultController.delegate = self
-                do {
-                    try fetchResultController.performFetch()
-                } catch {
-                    print("error")
-                }
-            }
-            sortBtn.setTitle("Sort by fortress", forState: .Normal)
-            sort = false
-        }
-        
-        tableView.reloadData()
-    }
-    
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "next" {
             let destinationVC = segue.destinationViewController as! ResultViewController
             destinationVC.alcoholUserList = alcoholUserList
+            destinationVC.alcoholUserFortress = alcoholUserFortress
             destinationVC.finalValue = finalValue
             destinationVC.volume = volume
         }

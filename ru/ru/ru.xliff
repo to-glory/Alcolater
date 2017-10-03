@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="Alcolater/Base.lproj/LaunchScreen.storyboard" source-language="en" datatype="plaintext" target-language="ru">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3.1" build-num="7D1014"/>
+    </header>
+    <body/>
+  </file>
+  <file original="Alcolater/Base.lproj/Main.storyboard" source-language="en" datatype="plaintext" target-language="ru">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3.1" build-num="7D1014"/>
+    </header>
+    <body>
+      <trans-unit id="2Wh-7c-OG7.text">
+        <source>Men</source>
+        <target>Men</target>
+        <note>Class = "UILabel"; text = "Men"; ObjectID = "2Wh-7c-OG7";</note>
+      </trans-unit>
+      <trans-unit id="3v5-kX-xXW.text">
+        <source>Title</source>
+        <target>Title</target>
+        <note>Class = "UILabel"; text = "Title"; ObjectID = "3v5-kX-xXW";</note>
+      </trans-unit>
+      <trans-unit id="5VW-Sx-POw.text">
+        <source>Women weight</source>
+        <target>Women weight</target>
+        <note>Class = "UILabel"; text = "Women weight"; ObjectID = "5VW-Sx-POw";</note>
+      </trans-unit>
+      <trans-unit id="6xZ-he-1Io.normalTitle">
+        <source>Calculate</source>
+        <target>Calculate</target>
+        <note>Class = "UIButton"; normalTitle = "Calculate"; ObjectID = "6xZ-he-1Io";</note>
+      </trans-unit>
+      <trans-unit id="AY0-ZA-2Ug.text">
+        <source>60</source>
+        <target>60</target>
+        <note>Class = "UITextField"; text = "60"; ObjectID = "AY0-ZA-2Ug";</note>
+      </trans-unit>
+      <trans-unit id="CAN-Wh-4vE.text">
+        <source>Title</source>
+        <target>Title</target>
+        <note>Class = "UILabel"; text = "Title"; ObjectID = "CAN-Wh-4vE";</note>
+      </trans-unit>
+      <trans-unit id="Cjo-iQ-FRf.text">
+        <source>Detail</source>
+        <target>Detail</target>
+        <note>Class = "UILabel"; text = "Detail"; ObjectID = "Cjo-iQ-FRf";</note>
+      </trans-unit>
+      <trans-unit id="GlV-qX-FnY.text">
+        <source>Men weight</source>
+        <target>Men weight</target>
+        <note>Class = "UILabel"; text = "Men weight"; ObjectID = "GlV-qX-FnY";</note>
+      </trans-unit>
+      <trans-unit id="Iu0-Pb-4WZ.normalTitle">
+        <source>Back</source>
+        <target>Back</target>
+        <note>Class = "UIButton"; normalTitle = "Back"; ObjectID = "Iu0-Pb-4WZ";</note>
+      </trans-unit>
+      <trans-unit id="L2g-uY-s6i.normalTitle">
+        <source>Select drinks</source>
+        <target>Select drinks</target>
+        <note>Class = "UIButton"; normalTitle = "Select drinks"; ObjectID = "L2g-uY-s6i";</note>
+      </trans-unit>
+      <trans-unit id="LXb-GX-nVL.normalTitle">
+        <source>Save</source>
+        <target>Save</target>
+        <note>Class = "UIButton"; normalTitle = "Save"; ObjectID = "LXb-GX-nVL";</note>
+      </trans-unit>
+      <trans-unit id="LtY-EX-wLR.normalTitle">
+        <source>Button</source>
+        <target>Button</target>
+        <note>Class = "UIButton"; normalTitle = "Button"; ObjectID = "LtY-EX-wLR";</note>
+      </trans-unit>
+      <trans-unit id="SeJ-LL-ARx.placeholder">
+        <source>Whiskey</source>
+        <target>Whiskey</target>
+        <note>Class = "UITextField"; placeholder = "Whiskey"; ObjectID = "SeJ-LL-ARx";</note>
+      </trans-unit>
+      <trans-unit id="VNV-8C-EeH.normalTitle">
+        <source>Back</source>
+        <target>Back</target>
+        <note>Class = "UIButton"; normalTitle = "Back"; ObjectID = "VNV-8C-EeH";</note>
+      </trans-unit>
+      <trans-unit id="VeB-NT-COj.text">
+        <source>Fortress</source>
+        <target>Fortress</target>
+        <note>Class = "UILabel"; text = "Fortress"; ObjectID = "VeB-NT-COj";</note>
+      </trans-unit>
+      <trans-unit id="Vsc-FJ-IlH.text">
+        <source>1h</source>
+        <target>1h</target>
+        <note>Class = "UILabel"; text = "1h"; ObjectID = "Vsc-FJ-IlH";</note>
+      </trans-unit>
+      <trans-unit id="WzB-P6-i8O.text">
+        <source>How badly do you want to have fun?</source>
+        <note>Class = "UILabel"; text = "How badly do you want to have fun?"; ObjectID = "WzB-P6-i8O";</note>
+      </trans-unit>
+      <trans-unit id="X1R-GN-3sf.text">
+        <source>999 ml</source>
+        <target>999 ml</target>
+        <note>Class = "UILabel"; text = "999 ml"; ObjectID = "X1R-GN-3sf";</note>
+      </trans-unit>
+      <trans-unit id="ZTh-hC-X6u.text">
+        <source>Women</source>
+        <target>Women</target>
+        <note>Class = "UILabel"; text = "Women"; ObjectID = "ZTh-hC-X6u";</note>
+      </trans-unit>
+      <trans-unit id="bQN-PT-rYw.text">
+        <source>Duration</source>
+        <target>Duration</target>
+        <note>Class = "UILabel"; text = "Duration"; ObjectID = "bQN-PT-rYw";</note>
+      </trans-unit>
+      <trans-unit id="bvR-bn-Sei.placeholder">
+        <source>41</source>
+        <target>41</target>
+        <note>Class = "UITextField"; placeholder = "41"; ObjectID = "bvR-bn-Sei";</note>
+      </trans-unit>
+      <trans-unit id="dOw-9q-jAl.text">
+        <source>0</source>
+        <target>0</target>
+        <note>Class = "UILabel"; text = "0"; ObjectID = "dOw-9q-jAl";</note>
+      </trans-unit>
+      <trans-unit id="fga-Re-55b.text">
+        <source>0</source>
+        <target>0</target>
+        <note>Class = "UILabel"; text = "0"; ObjectID = "fga-Re-55b";</note>
+      </trans-unit>
+      <trans-unit id="gFB-xi-Hdz.title">
+        <source>Back</source>
+        <target>Back</target>
+        <note>Class = "UIBarButtonItem"; title = "Back"; ObjectID = "gFB-xi-Hdz";</note>
+      </trans-unit>
+      <trans-unit id="gfn-Sw-zvD.text">
+        <source>Title</source>
+        <target>Title</target>
+        <note>Class = "UILabel"; text = "Title"; ObjectID = "gfn-Sw-zvD";</note>
+      </trans-unit>
+      <trans-unit id="klE-zs-1Yt.normalTitle">
+        <source>Button</source>
+        <target>Button</target>
+        <note>Class = "UIButton"; normalTitle = "Button"; ObjectID = "klE-zs-1Yt";</note>
+      </trans-unit>
+      <trans-unit id="lWK-2X-Igx.text">
+        <source>Recomendations</source>
+        <target>Recomendations</target>
+        <note>Class = "UILabel"; text = "Recomendations"; ObjectID = "lWK-2X-Igx";</note>
+      </trans-unit>
+      <trans-unit id="ns2-8O-2Uf.normalTitle">
+        <source>weight settings</source>
+        <target>weight settings</target>
+        <note>Class = "UIButton"; normalTitle = "weight settings"; ObjectID = "ns2-8O-2Uf";</note>
+      </trans-unit>
+      <trans-unit id="shh-GT-aER.text">
+        <source>kg</source>
+        <target>kg</target>
+        <note>Class = "UILabel"; text = "kg"; ObjectID = "shh-GT-aER";</note>
+      </trans-unit>
+      <trans-unit id="uoM-Qb-p7p.normalTitle">
+        <source>Button</source>
+        <target>Button</target>
+        <note>Class = "UIButton"; normalTitle = "Button"; ObjectID = "uoM-Qb-p7p";</note>
+      </trans-unit>
+      <trans-unit id="z9k-cs-O8L.text">
+        <source>kg</source>
+        <target>kg</target>
+        <note>Class = "UILabel"; text = "kg"; ObjectID = "z9k-cs-O8L";</note>
+      </trans-unit>
+      <trans-unit id="zQc-4x-0bo.text">
+        <source>80</source>
+        <target>80</target>
+        <note>Class = "UITextField"; text = "80"; ObjectID = "zQc-4x-0bo";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Alcolater/Info.plist" source-language="en" datatype="plaintext" target-language="ru">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3.1" build-num="7D1014"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Alcolater/Localizable.strings" source-language="en" datatype="plaintext" target-language="ru">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3.1" build-num="7D1014"/>
+    </header>
+    <body>
+      <trans-unit id="1 h">
+        <source>1 h</source>
+        <target>1 ч</target>
+        <note>1 ч</note>
+      </trans-unit>
+      <trans-unit id="Average men's weight">
+        <source>Average men's weight</source>
+        <target>Средний вес мужчин</target>
+        <note>Средний вес мужчин</note>
+      </trans-unit>
+      <trans-unit id="Average women's weight">
+        <source>Average women's weight</source>
+        <target>Средний вес женщин</target>
+        <note>Средний вес женщин</note>
+      </trans-unit>
+      <trans-unit id="Back">
+        <source>Back</source>
+        <target>Назад</target>
+        <note>Назад</note>
+      </trans-unit>
+      <trans-unit id="Calculate">
+        <source>Calculate</source>
+        <target>Рассчитать</target>
+        <note>Рассчитать</note>
+      </trans-unit>
+      <trans-unit id="Cancel">
+        <source>Cancel</source>
+        <target>Отмена</target>
+        <note>Отмена</note>
+      </trans-unit>
+      <trans-unit id="Choose the drinks">
+        <source>Choose the drinks</source>
+        <target>Выберите напитки</target>
+        <note>Выберите напитки</note>
+      </trans-unit>
+      <trans-unit id="Close">
+        <source>Close</source>
+        <target>Скрыть</target>
+        <note>Скрыть</note>
+      </trans-unit>
+      <trans-unit id="Duration">
+        <source>Duration</source>
+        <target>Продолжительность</target>
+        <note>Длительность</note>
+      </trans-unit>
+      <trans-unit id="Error!">
+        <source>Error!</source>
+        <target>Ошибка!</target>
+        <note>Ошибка!</note>
+      </trans-unit>
+      <trans-unit id="Fortress">
+        <source>Fortress</source>
+        <target>Крепость</target>
+        <note>Крепость</note>
+      </trans-unit>
+      <trans-unit id="Fun">
+        <source>Fun</source>
+        <target>До упаду</target>
+        <note>До упаду</note>
+      </trans-unit>
+      <trans-unit id="How badly do you want to have fun?">
+        <source>How badly do you want to have fun?</source>
+        <target>Как сильно будете пить?</target>
+        <note>Как сильно будете пить?</note>
+      </trans-unit>
+      <trans-unit id="Invalid value. Enter a value less then">
+        <source>Invalid value. Enter a value less then</source>
+        <target>Неверный объем. Введите значение меньше, чем</target>
+        <note>Введите меньше</note>
+      </trans-unit>
+      <trans-unit id="Medium">
+        <source>Medium</source>
+        <target>Нормально</target>
+        <note>Весело</note>
+      </trans-unit>
+      <trans-unit id="Men">
+        <source>Men</source>
+        <target>Мужчины</target>
+        <note>Мужчины</note>
+      </trans-unit>
+      <trans-unit id="Normal">
+        <source>Normal</source>
+        <target>Слабо</target>
+        <note>Не чувствуется</note>
+      </trans-unit>
+      <trans-unit id="Result">
+        <source>Result</source>
+        <target>Результат</target>
+        <note>Результат:</note>
+      </trans-unit>
+      <trans-unit id="Save">
+        <source>Save</source>
+        <target>Сохранить</target>
+        <note>Добавить</note>
+      </trans-unit>
+      <trans-unit id="Select drinks">
+        <source>Select drinks</source>
+        <target>Выбор напитков</target>
+        <note>Выбор напитков</note>
+      </trans-unit>
+      <trans-unit id="This app was developed for entertainment purposes only. Results of the calculation should be considered as a joke and must not be used to determine whether person is able to drive, cannot be provide as proof in court and should not be interpreted as a result of the medical examination">
+        <source>This app was developed for entertainment purposes only. Results of the calculation should be considered as a joke and must not be used to determine whether person is able to drive, cannot be provide as proof in court and should not be interpreted as a result of the medical examination</source>
+        <target>Чрезмерное употребление алкоголя вредит Вашему здоровью и приводит к алкогольной зависимости. Расчеты, приведенные в приложении, носят исключительно развлекательный характер, они не могут служить доказательством в суде. Помните, управление автомобилем в состоянии алкогольного опьянения запрещено</target>
+        <note>Предупреждение</note>
+      </trans-unit>
+      <trans-unit id="Title">
+        <source>Title</source>
+        <target>Название</target>
+        <note>Название</note>
+      </trans-unit>
+      <trans-unit id="Volume">
+        <source>Volume</source>
+        <target>Объем</target>
+        <note>Объем</note>
+      </trans-unit>
+      <trans-unit id="Warning!">
+        <source>Warning!</source>
+        <target>Внимание!</target>
+        <note>Внимание!</note>
+      </trans-unit>
+      <trans-unit id="Weight settings">
+        <source>Weight settings</source>
+        <target>Параметры веса</target>
+        <note>Параметры веса</note>
+      </trans-unit>
+      <trans-unit id="Whiskey">
+        <source>Whiskey</source>
+        <target>Виски</target>
+        <note>Виски</note>
+      </trans-unit>
+      <trans-unit id="Women">
+        <source>Women</source>
+        <target>Женщины</target>
+        <note>Женщины</note>
+      </trans-unit>
+      <trans-unit id="h">
+        <source>h</source>
+        <target>ч</target>
+        <note>ч</note>
+      </trans-unit>
+      <trans-unit id="kg">
+        <source>kg</source>
+        <target>кг</target>
+        <note>кг</note>
+      </trans-unit>
+      <trans-unit id="l">
+        <source>l</source>
+        <target>л</target>
+        <note>л</note>
+      </trans-unit>
+      <trans-unit id="ml">
+        <source>ml</source>
+        <target>мл</target>
+        <note>мл</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

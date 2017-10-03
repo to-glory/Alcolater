@@ -63,6 +63,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Create the coordinator and store
         let coordinator = NSPersistentStoreCoordinator(managedObjectModel: self.managedObjectModel)
         let url = self.applicationDocumentsDirectory.URLByAppendingPathComponent("SingleViewCoreData.sqlite")
+        
+        if !NSFileManager.defaultManager().fileExistsAtPath(url.path!) {
+            let sourceSqliteURLs = [NSBundle.mainBundle().URLForResource("SingleViewCoreData", withExtension: "sqlite")!, NSBundle.mainBundle().URLForResource("SingleViewCoreData", withExtension: "sqlite-wal")!, NSBundle.mainBundle().URLForResource("SingleViewCoreData", withExtension: "sqlite-shm")!]
+            let destSqliteURLs = [self.applicationDocumentsDirectory.URLByAppendingPathComponent("SingleViewCoreData.sqlite"), self.applicationDocumentsDirectory.URLByAppendingPathComponent("SingleViewCoreData.sqlite-wal"), self.applicationDocumentsDirectory.URLByAppendingPathComponent("SingleViewCoreData.sqlite-shm")]
+            
+            for index in 0 ..< sourceSqliteURLs.count {
+                do {
+                    try NSFileManager.defaultManager().copyItemAtURL(sourceSqliteURLs[index], toURL: destSqliteURLs[index])
+                } catch {
+                    print(error)
+                }
+            }
+        }
+        
         var failureReason = "There was an error creating or loading the application's saved data."
         do {
             try coordinator.addPersistentStoreWithType(NSSQLiteStoreType, configuration: nil, URL: url, options: nil)

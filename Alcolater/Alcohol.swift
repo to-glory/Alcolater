@@ -2,7 +2,7 @@
 //  Alcohol.swift
 //  Alcolater
 //
-//  Created by To Glory! on 19/04/16.
+//  Created by To Glory! on 28/04/16.
 //  Copyright © 2016 Nerd trio. All rights reserved.
 //
 
@@ -13,6 +13,7 @@ import CoreData
 class Alcohol: NSManagedObject {
 
     @NSManaged var fortress: NSNumber?
-    @NSManaged var title: String?
+    @NSManaged var titleEn: String?
+    @NSManaged var titleRu: String?
 
 }

@@ -1,0 +1,93 @@
+/* Class = "UILabel"; text = "Men"; ObjectID = "2Wh-7c-OG7"; */
+"2Wh-7c-OG7.text" = "Men";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "3v5-kX-xXW"; */
+"3v5-kX-xXW.text" = "Title";
+
+/* Class = "UILabel"; text = "Women weight"; ObjectID = "5VW-Sx-POw"; */
+"5VW-Sx-POw.text" = "Women weight";
+
+/* Class = "UIButton"; normalTitle = "Calculate"; ObjectID = "6xZ-he-1Io"; */
+"6xZ-he-1Io.normalTitle" = "Calculate";
+
+/* Class = "UITextField"; text = "60"; ObjectID = "AY0-ZA-2Ug"; */
+"AY0-ZA-2Ug.text" = "60";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "CAN-Wh-4vE"; */
+"CAN-Wh-4vE.text" = "Title";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "Cjo-iQ-FRf"; */
+"Cjo-iQ-FRf.text" = "Detail";
+
+/* Class = "UILabel"; text = "Men weight"; ObjectID = "GlV-qX-FnY"; */
+"GlV-qX-FnY.text" = "Men weight";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "Iu0-Pb-4WZ"; */
+"Iu0-Pb-4WZ.normalTitle" = "Back";
+
+/* Class = "UIButton"; normalTitle = "Select drinks"; ObjectID = "L2g-uY-s6i"; */
+"L2g-uY-s6i.normalTitle" = "Select drinks";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "LXb-GX-nVL"; */
+"LXb-GX-nVL.normalTitle" = "Save";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "LtY-EX-wLR"; */
+"LtY-EX-wLR.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Whiskey"; ObjectID = "SeJ-LL-ARx"; */
+"SeJ-LL-ARx.placeholder" = "Whiskey";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "VNV-8C-EeH"; */
+"VNV-8C-EeH.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "Fortress"; ObjectID = "VeB-NT-COj"; */
+"VeB-NT-COj.text" = "Fortress";
+
+/* Class = "UILabel"; text = "1h"; ObjectID = "Vsc-FJ-IlH"; */
+"Vsc-FJ-IlH.text" = "1h";
+
+/* Class = "UILabel"; text = "999 ml"; ObjectID = "X1R-GN-3sf"; */
+"X1R-GN-3sf.text" = "999 ml";
+
+/* Class = "UILabel"; text = "Women"; ObjectID = "ZTh-hC-X6u"; */
+"ZTh-hC-X6u.text" = "Women";
+
+/* Class = "UILabel"; text = "Duration"; ObjectID = "bQN-PT-rYw"; */
+"bQN-PT-rYw.text" = "Duration";
+
+/* Class = "UITextField"; placeholder = "41"; ObjectID = "bvR-bn-Sei"; */
+"bvR-bn-Sei.placeholder" = "41";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "dOw-9q-jAl"; */
+"dOw-9q-jAl.text" = "0";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "fga-Re-55b"; */
+"fga-Re-55b.text" = "0";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "gFB-xi-Hdz"; */
+"gFB-xi-Hdz.title" = "Back";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "gfn-Sw-zvD"; */
+"gfn-Sw-zvD.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "klE-zs-1Yt"; */
+"klE-zs-1Yt.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Recomendations"; ObjectID = "lWK-2X-Igx"; */
+"lWK-2X-Igx.text" = "Recomendations";
+
+/* Class = "UIButton"; normalTitle = "weight settings"; ObjectID = "ns2-8O-2Uf"; */
+"ns2-8O-2Uf.normalTitle" = "weight settings";
+
+/* Class = "UILabel"; text = "kg"; ObjectID = "shh-GT-aER"; */
+"shh-GT-aER.text" = "kg";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "uoM-Qb-p7p"; */
+"uoM-Qb-p7p.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "kg"; ObjectID = "z9k-cs-O8L"; */
+"z9k-cs-O8L.text" = "kg";
+
+/* Class = "UITextField"; text = "80"; ObjectID = "zQc-4x-0bo"; */
+"zQc-4x-0bo.text" = "80";
+
